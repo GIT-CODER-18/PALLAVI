@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Mallepogu Pallavi - Computer Science Engineering Student specializing in Python, HTML, CSS, and ML-driven solutions." />
+  <meta property="og:title" content="Mallepogu Pallavi | Technical Portfolio" />
+  <meta property="og:description" content="Computer Science & Engineering Student | Developer" />
+  <meta property="og:type" content="website" />
+  <title>Mallepogu Pallavi | Technical Portfolio</title>
+  
+  <!-- Font Awesome CDN for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar-header">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Home">
+        <span class="logo-icon">A</span>
+        <span class="logo-text">PALLAVI</span>
+      </a>
+      <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> About</a></li>
+          <li><a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Skills</a></li>
+          <li><a href="#projects" class="nav-link"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
+          <li><a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+          <li><a href="#certifications" class="nav-link"><i class="fa-solid fa-certificate"></i> Certifications</a></li>
+          <li><a href="#testimonials" class="nav-link"><i class="fa-solid fa-quote-right"></i> Recommendations</a></li>
+          <li><a href="#contact" class="nav-link"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-grid-bg"></div>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="status-badge"><span class="pulse-dot"></span> CSE Undergraduate (2022–2026)</div>
+          <h1 class="hero-title">MALLEPOGU PALLAVI</h1>
+          <p class="hero-subtitle">Computer Science & Engineering Student | Machine Learning & Web Technologies</p>
+          <p class="hero-description">
+            Seeking an opportunity to expand my learnings, knowledge, skills, and utilize them to contribute to the success of the organization.
+          </p>
+          <div class="hero-tags">
+            <span class="tech-tag"><i class="fa-brands fa-python"></i> Python</span>
+            <span class="tech-tag"><i class="fa-brands fa-html5"></i> HTML</span>
+            <span class="tech-tag"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+            <span class="tech-tag"><i class="fa-solid fa-c"></i> C Programming</span>
+            <span class="tech-tag"><i class="fa-solid fa-brain"></i> Machine Learning</span>
+          </div>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-network-wired"></i> View Projects</a>
+            <a href="images/resume.pdf" download class="btn btn-secondary"><i class="fa-solid fa-download"></i> Download Resume</a>
+            <a href="#contact" class="btn btn-outline"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">System Overview</span>
+          <h2 class="section-title">About Me</h2>
+        </div>
+        <div class="card about-card">
+          <div class="about-grid">
+            <div class="about-text">
+              <p>
+                I am a dedicated Bachelor of Technology student in Computer Science and Engineering at Ashoka Women's Engineering College, Kurnool. Focused on expanding my technical knowledge and problem-solving capabilities, I apply engineering concepts to build practical software and machine learning applications.
+              </p>
+              <div class="declaration-box">
+                <h4><i class="fa-solid fa-shield-halved"></i> Declaration</h4>
+                <p>I hereby declare that the above mentioned information is correct and true to the best of my knowledge and belief.</p>
+              </div>
+            </div>
+            <div class="about-stats">
+              <div class="stat-item">
+                <span class="stat-label">Degree</span>
+                <span class="stat-value">B.Tech (CSE)</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-label">Academic Tenure</span>
+                <span class="stat-value">2022 - 2026</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-label">Location</span>
+                <span class="stat-value">Kurnool, Andhra Pradesh</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-label">Languages</span>
+                <span class="stat-value">English, Telugu</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Technical Capabilities</span>
+          <h2 class="section-title">Skills & Technologies</h2>
+        </div>
+        <div class="skills-grid">
+          
+          <div class="card skill-card">
+            <div class="card-icon"><i class="fa-solid fa-code"></i></div>
+            <h3>Programming Languages</h3>
+            <ul class="skill-list">
+              <li><i class="fa-brands fa-python"></i> Python basics</li>
+              <li><i class="fa-solid fa-c"></i> Basics of C-programming</li>
+            </ul>
+          </div>
+
+          <div class="card skill-card">
+            <div class="card-icon"><i class="fa-solid fa-layer-group"></i></div>
+            <h3>Web Technologies</h3>
+            <ul class="skill-list">
+              <li><i class="fa-brands fa-html5"></i> HTML</li>
+              <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+            </ul>
+          </div>
+
+          <div class="card skill-card">
+            <div class="card-icon"><i class="fa-solid fa-microchip"></i></div>
+            <h3>Specializations & Systems</h3>
+            <ul class="skill-list">
+              <li><i class="fa-solid fa-brain"></i> Machine Learning (ML Prediction)</li>
+              <li><i class="fa-solid fa-cloud"></i> Cloud Computing Concepts</li>
+              <li><i class="fa-solid fa-shield-cat"></i> Cyber Security Fundamentals</li>
+            </ul>
+          </div>
+
+          <div class="card skill-card">
+            <div class="card-icon"><i class="fa-solid fa-language"></i></div>
+            <h3>Languages</h3>
+            <ul class="skill-list">
+              <li><i class="fa-solid fa-globe"></i> English</li>
+              <li><i class="fa-solid fa-language"></i> Telugu</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Executed Implementations</span>
+          <h2 class="section-title">Technical Projects</h2>
+        </div>
+        <div class="projects-grid">
+
+          <article class="card project-card">
+            <div class="project-header">
+              <span class="project-category"><i class="fa-solid fa-seedling"></i> ML & IoT Application</span>
+              <h3 class="project-title">Smart Irrigation System Using Sensors Data and ML Prediction</h3>
+            </div>
+            <div class="project-body">
+              <p class="project-description">
+                Engineered an intelligent irrigation control system leveraging real-time sensor metrics and machine learning models to optimize water usage in agricultural practices.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-chip">Python</span>
+                <span class="tech-chip">Machine Learning</span>
+                <span class="tech-chip">Soil Moisture Sensors</span>
+                <span class="tech-chip">Temperature & Humidity Sensors</span>
+              </div>
+              <ul class="project-highlights">
+                <li>Developed irrigation system using sensors data (soil moisture, temperature, humidity).</li>
+                <li>Applied machine learning to predict watering needs accurately.</li>
+                <li>Improved water efficiency and overall crop yields.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-header">
+              <span class="project-category"><i class="fa-solid fa-utensils"></i> Web Interface</span>
+              <h3 class="project-title">Cafe Menu Card</h3>
+            </div>
+            <div class="project-body">
+              <p class="project-description">
+                Designed and built a modern, structured visual menu interface for dining applications using web standards.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-chip">HTML</span>
+                <span class="tech-chip">CSS</span>
+                <span class="tech-chip">UI Layout Design</span>
+              </div>
+              <ul class="project-highlights">
+                <li>Designed and implemented a Cafe menu card utilizing pure HTML and CSS structure.</li>
+                <li>Optimized typography and visual presentation for enhanced user engagement.</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Academic Timeline</span>
+          <h2 class="section-title">Education</h2>
+        </div>
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="card timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="degree-title">Bachelor of Technology in Computer Science and Engineering</h3>
+                  <p class="institution-name">Ashoka Women's Engineering College, Kurnool</p>
+                </div>
+                <span class="timeline-date">2022 - 2026</span>
+              </div>
+              <div class="timeline-details">
+                <span class="grade-badge"><i class="fa-solid fa-chart-line"></i> CGPA: 7.9%</span>
+                <span class="location-badge"><i class="fa-solid fa-location-dot"></i> Kurnool</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="card timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="degree-title">Intermediate in MPC (Maths, Physics, Chemistry)</h3>
+                  <p class="institution-name">DR.B.R Ambedkar Gurukulam, Pattikonda</p>
+                </div>
+                <span class="timeline-date">2020 - 2022</span>
+              </div>
+              <div class="timeline-details">
+                <span class="grade-badge"><i class="fa-solid fa-chart-line"></i> Percentage: 7.3%</span>
+                <span class="location-badge"><i class="fa-solid fa-location-dot"></i> Pattikonda</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="card timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="degree-title">Secondary School Certificate (SSC)</h3>
+                  <p class="institution-name">ZP High School Ulindakonda, Kurnool District</p>
+                </div>
+                <span class="timeline-date">2020</span>
+              </div>
+              <div class="timeline-details">
+                <span class="grade-badge"><i class="fa-solid fa-chart-line"></i> CGPA: 9.4%</span>
+                <span class="location-badge"><i class="fa-solid fa-location-dot"></i> Ulindakonda, Kurnool</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Verified Accomplishments</span>
+          <h2 class="section-title">Certifications & Additional Qualifications</h2>
+        </div>
+        <div class="certifications-grid">
+
+          <div class="card cert-card">
+            <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+            <div class="cert-content">
+              <h3>Certified in HTML Basics</h3>
+              <p class="cert-issuer">SoloLearn</p>
+              <p class="cert-desc">Formal verification of core knowledge in HTML structure and semantic markup.</p>
+            </div>
+          </div>
+
+          <div class="card cert-card">
+            <div class="cert-icon"><i class="fa-solid fa-cloud"></i></div>
+            <div class="cert-content">
+              <h3>Cloud Computing</h3>
+              <p class="cert-issuer">NPTEL</p>
+              <p class="cert-desc">Specialized academic certification covering cloud infrastructure and computing fundamentals.</p>
+            </div>
+          </div>
+
+          <div class="card cert-card">
+            <div class="cert-icon"><i class="fa-solid fa-user-shield"></i></div>
+            <div class="cert-content">
+              <h3>Cyber Security Certification</h3>
+              <p class="cert-issuer">Cognizant Foundation India & ICT Academy</p>
+              <p class="cert-desc">Industry-aligned training covering core cybersecurity principles and defense mechanisms.</p>
+            </div>
+          </div>
+
+          <div class="card cert-card">
+            <div class="cert-icon"><i class="fa-solid fa-code"></i></div>
+            <div class="cert-content">
+              <h3>Basics of C-Programming</h3>
+              <p class="cert-issuer">Additional Qualification</p>
+              <p class="cert-desc">Certified proficiency in foundational programming paradigms and algorithms in C.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Professional Endorsements</span>
+          <h2 class="section-title">Recommendations</h2>
+        </div>
+        
+        <div class="testimonial-carousel-wrapper">
+          <div class="testimonial-carousel" id="testimonial-carousel">
+            
+            <div class="testimonial-slide active">
+              <div class="card testimonial-card">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <p class="testimonial-text">
+                  Placeholder Recommendation: Professional endorsements, peer feedback, or academic references can be featured here in future updates.
+                </p>
+                <div class="testimonial-author">
+                  <div class="author-info">
+                    <span class="author-name">Academic / Professional Reference</span>
+                    <span class="author-title">Institution / Enterprise Partner</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-slide">
+              <div class="card testimonial-card">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <p class="testimonial-text">
+                  Placeholder Recommendation: Additional verified testimonials and project feedback will be rendered in this component.
+                </p>
+                <div class="testimonial-author">
+                  <div class="author-info">
+                    <span class="author-name">Project Evaluator</span>
+                    <span class="author-title">Technical Reviewer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="carousel-controls">
+            <button class="carousel-btn" id="prev-testimonial" aria-label="Previous Recommendation"><i class="fa-solid fa-chevron-left"></i></button>
+            <div class="carousel-indicators" id="carousel-indicators">
+              <span class="indicator active" data-slide="0"></span>
+              <span class="indicator" data-slide="1"></span>
+            </div>
+            <button class="carousel-btn" id="next-testimonial" aria-label="Next Recommendation"><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Communication Channel</span>
+          <h2 class="section-title">Contact Information</h2>
+        </div>
+        <div class="contact-grid">
+
+          <div class="card contact-card">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="contact-details">
+              <h3>Email</h3>
+              <a href="mailto:pallavimallepogu18@gmail.com">pallavimallepogu18@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="card contact-card">
+            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="contact-details">
+              <h3>Phone</h3>
+              <a href="tel:+919550299118">+91 9550299118</a>
+            </div>
+          </div>
+
+          <div class="card contact-card">
+            <div class="contact-icon"><i class="fa-brands fa-linkedin"></i></div>
+            <div class="contact-details">
+              <h3>LinkedIn</h3>
+              <a href="https://linkedin.com/in/pallavi-mallepogu-58a93b31b" target="_blank" rel="noopener noreferrer">pallavi-mallepogu-58a93b31b</a>
+            </div>
+          </div>
+
+          <div class="card contact-card">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="contact-details">
+              <h3>Location</h3>
+              <p>Kurnool, Andhra Pradesh, India</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  
+  <!-- Footer -->
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <span class="footer-logo">MALLEPOGU PALLAVI</span>
+        <p>Computer Science & Engineering Student | Technical Portfolio</p>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:pallavimallepogu18@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://linkedin.com/in/pallavi-mallepogu-58a93b31b" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <div class="footer-copyright">
+        &copy; <span id="current-year">2026</span> Mallepogu Pallavi. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
